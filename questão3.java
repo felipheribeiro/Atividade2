@@ -16,11 +16,11 @@ public class Aviao {
         return this.altitude;
     }
 
-    public void aumentarVelocidade(int aceleracao){
-        this.velocidade = +aceleracao;
+    public void aumentarVelocidade(int acelerar){
+        this.velocidade = +acelerar;
     }
-    public void diminuirVelocidade(int aceleracao){
-        this.velocidade = -aceleracao;
+    public void diminuirVelocidade(int acelerar){
+        this.velocidade = -acelerar;
     }
 
     public void aumentarAltitude (int altitude){
