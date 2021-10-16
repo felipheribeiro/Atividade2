@@ -7,8 +7,8 @@ public class Aviao {
         System.out.println("\nVelocidade: "+azul.getVelocidade()+" Km/h");
         System.out.println("Altitude: "+azul.getAltitude()+" Km\n");
 
-        azul.diminuirAltitude(1);
-        azul.diminuirVelocidade(100);
+        azul.reduzirAltitude(1);
+        azul.reduzirVelocidade(100);
 
         System.out.println("\nVelocidade: "+azul.getVelocidade()+" Km/h");
         System.out.println("Altitude: "+azul.getAltitude()+" Km\n");
